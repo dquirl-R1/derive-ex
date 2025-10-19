@@ -212,8 +212,9 @@
     {
       "type": "shell",
       "label": "include doc",
-      "command": "include-doc",
+      "command": "rustdoc-include",
       "args": [
+        "--root",
         "${workspaceFolder}"
       ],
       "problemMatcher": [
